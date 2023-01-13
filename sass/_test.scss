@@ -1,0 +1,6 @@
+@use '@bryanpizzillo/ncids-with-uswds-patch/sass/ncids-core' as *;
+
+.nci-box {
+  @include u-shadow(2);
+  @include u-padding(3);
+}
